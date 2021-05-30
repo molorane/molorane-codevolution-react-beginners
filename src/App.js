@@ -7,14 +7,18 @@ import styles from './appStyles.module.css'
 import Form from './components/Form';
 import ParentComponent from './components/ParentComponent';
 import LifeCycleA from './components/UpdatingLifeCycle/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
   return (
     <div className="App">
     
-    <LifeCycleA />
+    <Table />
 
     {/*
+
+       <FragmentDemo />
 
       <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1>
