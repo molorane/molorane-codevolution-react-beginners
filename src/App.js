@@ -9,15 +9,20 @@ import ParentComponent from './components/ParentComponent';
 import LifeCycleA from './components/UpdatingLifeCycle/LifeCycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import MyPureComponent from './components/MyPureComponent';
+import MyParentComponent from './components/MyParentComponent';
 
 function App() {
   return (
     <div className="App">
     
-    <Table />
 
+   <MyParentComponent /> 
+   
     {/*
 
+       <MyPureComponent />
+      <Table />
        <FragmentDemo />
 
       <h1 className='error'>Error</h1>
