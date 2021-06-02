@@ -11,13 +11,20 @@ import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import MyPureComponent from './components/MyPureComponent';
 import MyParentComponent from './components/MyParentComponent';
+import RefsOldDemo from './components/Refs/RefsDemoOld';
+import FocusInput from './components/Refs/FocusInput';
+import ParentInput from './components/Refs/Forwardref/ParentInput';
+import PortalDemo from './components/Refs/PortalDemo';
+import Parent from './components/Refs/Portals/Parent';
+import Hero from './components/Refs/ErrorHandling/Hero';
+import ParentBoundary from './components/Refs/ErrorHandling/ParentBoundary';
 
 function App() {
   return (
     <div className="App">
-    
 
-   <MyParentComponent /> 
+      <ParentBoundary />
+   
    
     {/*
 
